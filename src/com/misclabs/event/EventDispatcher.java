@@ -8,8 +8,8 @@ public class EventDispatcher {
     }
     
     public void dispatch(EventHandler handler,Event.EventType type){
-        if(event.isHandled)
-            return;
+        if(event.isHandled){//return;
+        }
         else if(type == event.eventType)
             event.isHandled=handler.onEvent(event);
     }
