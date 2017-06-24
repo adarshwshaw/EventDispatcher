@@ -71,6 +71,6 @@ public class TestLayer extends UILayer{
     
     public void onRender(Graphics g){
         g.setColor(color);
-        g.drawRect(rect.x, rect.y, rect.width, rect.height);
+        g.fillRect(rect.x, rect.y, rect.width, rect.height);
     }
 }

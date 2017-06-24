@@ -5,7 +5,7 @@ import com.misclabs.event.Event;
 public class MouseReleased extends Event{
     protected int x,y,button;
     public MouseReleased(int x,int y,int button) {
-        super(Event.EventType.Mouse_Pressed);
+        super(Event.EventType.Mouse_Released);
         this.x=x;
         this.y=y;
         this.button=button;
